@@ -2,7 +2,84 @@
 
 .auth {
     height: 100%;
-    .login {
+    width: 100%;
 
+    .login {
+        width: 450px;
+        margin: 70px auto;
+        border: 1px solid #C7C7C7;
+        padding: 30px;
+        text-align: center;
+        font-size: 16px;
+
+        .text-field {
+            width: 100%;
+            margin-bottom: 5px;
+            padding: 10px;
+            height: 70px;
+            border-radius: 2px;
+            border: 1px solid #8F8F8F;
+        }
+
+        .checkbox-field {
+            float: left;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .btn-login {
+            width: 100%;
+            display: block;
+            height: 70px;
+            margin-bottom: 5px;
+            border: 0;
+            background: none;
+            box-shadow: none;
+            border-radius: 5px;
+        }
+
+        p {
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        a {
+            display: inline-block;
+            font-size: 14px;
+            float: right;
+        }
+
+        .container {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            width: 100%;
+        }
+
+        #login-fb {
+            background-color: #3b5998;
+            color: white;
+        }
+
+        #login-google {
+            border: 1px solid #C7C7C7;
+        }
+
+        #login {
+            background-color: #FC6358;
+            color: white;
+        }
+
+        #remember-label {
+            float: left;
+        }
+
+        #sign-up {
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            border: 1px solid #FC6358;
+            margin: 10px 0 0 50px;
+            color: #FC6358;
+        }
     }
 }

@@ -15,7 +15,7 @@ if (env !== 'production') {
     const config = require('./webpack.config.js');
     const compiler = webpack(config);
 
-    app.use(hotMiddleware(compiler));
+    // app.use(hotMiddleware(compiler));
 
     const middleware = webpackMiddleware(compiler, {
         stats: {
